@@ -1,0 +1,115 @@
+@font-face 
+{
+    	font-family: 'MontereyFLF';
+   	 src: url('MontereyFLF.ttf');
+   	 src: url('MontereyFLF-Bold.ttf'),
+    	     url('DMontereyFLF-BoldItalic.ttf'),
+    	     url('MontereyMediumFLF.ttf'),
+   	     url('MontereyFLF.ttf');
+    	font-weight: normal;
+    	font-style: normal;
+
+}
+
+
+body
+{
+	font-family : Courier New;
+}
+
+
+h3, h4
+{
+	font-family : MontereyFLF;
+   	color: black;
+    	text-align: center;
+}
+
+
+header
+{
+    	font-family : MontereyFLF;
+    	color: white;
+    	text-align: left;
+    	text-indent: 5%;
+    	background-color: #022756;
+    	max width: 100%;
+    	border-radius: 2px;
+    	padding-bottom: 1px;
+    	padding-top: 2px;
+}
+
+
+div
+{
+    	flex: 1;
+    	color: whitesmoke;
+    	font-size: 0.9em; 
+}
+
+
+div
+{
+    	flex: 2;
+    	color: whitesmoke;
+    	font-size: 0.9em;    
+}
+
+
+aside
+{
+    	position: left;
+    	background-color: whitesmoke;
+    	box-shadow: 0px 5px 10px lightgrey;
+    	border-radius: 10px;
+    	padding: 65px;
+    	color: #022756;
+    	font-size: 0.9em;
+        width: 35%;
+        height: 80%;
+        margin-right: 10px;
+        margin-left: 45px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+}
+
+
+article
+{
+    	position: right;
+    	background-color: lightgrey;
+    	box-shadow: 0px 5px 10px lightgrey;
+    	border-radius: 10px;
+    	padding: 10px;
+    	color: #022756;
+    	font-size: 0.9em;
+    	width: 43%;
+    	height: 25%;
+    	margin-right: 50px;
+    	margin-left: 50px;
+    	margin-top: 20px;
+}
+
+
+footer
+{
+    	font-family : MontereyFLF;
+    	color: white;
+    	text-align: left;
+    	text-indent: 5%;
+    	background-color: #022756;
+        box-shadow: 0px 5px 10px lightgrey;
+    	border-radius: 10px;
+    	padding-bottom: 1px;
+    	padding-top: 2px;
+    	margin-left: 51%;
+    	margin-top: 20px;
+	max-width: 100%;
+}
+
+
+#conteneur
+{
+    	display: flex;
+    	flex-wrap: wrap;
+}
